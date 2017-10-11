@@ -1,0 +1,16 @@
+
+Existing Functionalities
+1)      perform PD analysis of ADS- B and radar stations. 
+2)      Plot flight profiles based on radar and ADS-B surveillance data 
+3)      Display of NUC value of each aircraft
+4)      Simulate coverage analysis based on terrain information 
+ 
+Wish List
+1)      System to auto detect of flights with abnormalities such as positioning error, multiple ads-b tracks , jumping NUC and low NUC issue and to keep a history records of these flights 
+2)      System to auto generate of PD analysis on a daily basis 
+3)      System to auto generate PD analysis with multiple ADS-B stations and RADAR stations simultaneously
+4)      Superimpose PD analysis on a FIR map and also Google earth 
+5)      Generate statistics of aircraft avionics such as percentage of DO260,DO260A and DO260-B equipage
+6)      Generate PD using SBS kinetics ADS-B receiver
+7)      Plot actual coverage using SBS kinetics ADS-B receiver 
+8)      Ability to input new buildings and infrastructures information to existing terrain data
