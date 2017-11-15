@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<hibernate-mapping>
-    <class name="com.attech.sms.database.entities.UserGroups" table="usergroups">
-        <id column="Id" name="Id" length="11" type="java.lang.Integer"/>
-        <property column="GroupName" name="GroupName" length="100" not-null="true" type="java.lang.String"/>
-        <property column="GroupDescription" name="GroupDescription" length="500" not-null="false" type="java.lang.String"/>
-    </class>
-</hibernate-mapping>

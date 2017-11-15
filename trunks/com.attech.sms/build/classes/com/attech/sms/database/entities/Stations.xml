@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.attech.sms.database.entities.Stations" table="stations">
+        <id column="Id" name="Id" length="11" type="java.lang.Integer"/>
+        <property column="StationName" name="StationName" length="50" not-null="true" type="java.lang.String"/>
+        <property column="StationDescription" name="StationDescription" length="500" not-null="false" type="java.lang.String"/>
+        <property column="SortNumber" name="SortNumber" length="2" not-null="true" type="java.lang.Integer"/>
+    </class>
+</hibernate-mapping>

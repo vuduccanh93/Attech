@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.attech.sms.database.entities.Sensors" table="sensors">
+        <id column="Id" name="Id" length="11" type="java.lang.Integer"/>
+        <property column="SensorMode" name="SensorMode" not-null="true" type="java.lang.Byte"/>
+        <property column="Sic" name="Sic" not-null="true" type="java.lang.Integer"/>
+        <property column="Latitude" name="Latitude" not-null="true" type="java.lang.Float"/>
+        <property column="Longitude" name="Longitude" not-null="true" type="java.lang.Float"/>
+        <property column="StationId" name="StationId" not-null="true" type="java.lang.Integer"/>
+        <property column="Status" name="Status" not-null="true" type="java.lang.Byte"/>
+        <property column="Description" name="Description" length="500" not-null="false" type="java.lang.String"/>
+    </class>
+</hibernate-mapping>

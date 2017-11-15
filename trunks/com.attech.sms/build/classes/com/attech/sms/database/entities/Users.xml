@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.attech.sms.database.entities.Users" table="users">
+        <id column="Id" name="Id" length="11" type="java.lang.Integer">
+            <generator class="identity"/>
+        </id>
+        
+        <property column="Username" name="Username" length="50" not-null="true" type="java.lang.String"/>
+        <property column="Password" name="Password" length="500" not-null="true" type="java.lang.String"/>
+        <property column="Fullname" name="Fullname" length="50" not-null="true" type="java.lang.String"/>
+        <property column="UserGroupId" name="UserGroupId" length="11" not-null="true" type="java.lang.Integer"/>
+        <property column="LastLogin" name="LastLogin" not-null="false" type="java.util.Date"/>
+        <property column="UserStatus" name="UserStatus" length="11" not-null="true" type="java.lang.Integer"/>
+    </class>
+</hibernate-mapping>
