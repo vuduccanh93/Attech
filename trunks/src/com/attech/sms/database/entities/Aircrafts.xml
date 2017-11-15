@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.attech.sms.database.entities.Aircrafts" table="aircrafts">
+        <id column="Id" name="Id" length="11" type="java.lang.Integer"/>
+        <property column="Icao24Address" name="Icao24Address" length="10" not-null="true" type="java.lang.String"/>
+        <property column="RegistrationNo" name="RegistrationNo" length="10" not-null="true" type="java.lang.String"/>
+        <property column="Model" name="Model" length="10" not-null="false" type="java.lang.String"/>
+        <property column="AircraftType" name="AircraftType" length="50" not-null="false" type="java.lang.String"/>
+        <property column="Operator" name="Operator" length="80" not-null="false" type="java.lang.String"/>
+    </class>
+</hibernate-mapping>
