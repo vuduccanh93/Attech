@@ -1,157 +1,466 @@
-2017-11-14 13:37:55,483 INFO   [run] CREATE SESSION FACTORY TO DATABASE 
-2017-11-14 13:37:55,603 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
-2017-11-14 13:37:55,613 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
-2017-11-14 13:37:55,613 INFO   [Environment] HHH000206: hibernate.properties not found 
-2017-11-14 13:37:55,623 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
-2017-11-14 13:37:55,633 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
-2017-11-14 13:37:55,653 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 13:37:55,663 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/database/entities/UserGroups.xml 
-2017-11-14 13:37:55,663 ERROR  [run] Failed to create sessionFactory object.org.hibernate.MappingNotFoundException: resource: com/attech/database/entities/UserGroups.xml not found 
-2017-11-14 13:38:35,883 INFO   [run] PROGRAM STARTED 
-2017-11-14 13:38:48,292 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
-2017-11-14 13:38:48,292 INFO   [Environment] HHH000206: hibernate.properties not found 
-2017-11-14 13:38:48,302 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
-2017-11-14 13:39:11,639 INFO   [run] PROGRAM STARTED 
-2017-11-14 13:40:19,673 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
-2017-11-14 13:40:19,683 INFO   [Environment] HHH000206: hibernate.properties not found 
-2017-11-14 13:40:19,683 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
-2017-11-14 14:46:29,759 INFO   [run] PROGRAM STARTED 
-2017-11-14 14:46:30,050 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
-2017-11-14 14:46:30,060 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
-2017-11-14 14:46:30,060 INFO   [Environment] HHH000206: hibernate.properties not found 
-2017-11-14 14:46:30,060 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
-2017-11-14 14:46:30,070 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
-2017-11-14 14:46:30,090 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:46:30,111 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
-2017-11-14 14:46:30,140 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:46:30,170 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
-2017-11-14 14:46:30,180 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:46:30,240 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
-2017-11-14 14:46:30,240 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:46:30,260 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
-2017-11-14 14:46:38,724 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
-2017-11-14 14:46:38,726 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
-2017-11-14 14:46:38,726 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
-2017-11-14 14:46:38,726 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
-2017-11-14 14:46:38,726 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
-2017-11-14 14:46:39,026 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
-2017-11-14 14:46:39,076 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
-2017-11-14 14:49:16,927 INFO   [run] PROGRAM STARTED 
-2017-11-14 14:49:17,249 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
-2017-11-14 14:49:17,262 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
-2017-11-14 14:49:17,265 INFO   [Environment] HHH000206: hibernate.properties not found 
-2017-11-14 14:49:17,268 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
-2017-11-14 14:49:17,278 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
-2017-11-14 14:49:17,298 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:49:17,318 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
-2017-11-14 14:49:17,348 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:49:17,378 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
-2017-11-14 14:49:17,388 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:49:17,418 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
-2017-11-14 14:49:17,418 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:49:17,438 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
-2017-11-14 14:49:22,420 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
-2017-11-14 14:49:22,430 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
-2017-11-14 14:49:22,430 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
-2017-11-14 14:49:22,430 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
-2017-11-14 14:49:22,430 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
-2017-11-14 14:49:22,890 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
-2017-11-14 14:49:22,961 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
-2017-11-14 14:49:38,400 INFO   [run] PROGRAM STARTED 
-2017-11-14 14:49:38,670 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
-2017-11-14 14:49:38,680 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
-2017-11-14 14:49:38,680 INFO   [Environment] HHH000206: hibernate.properties not found 
-2017-11-14 14:49:38,680 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
-2017-11-14 14:49:38,700 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
-2017-11-14 14:49:38,710 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:49:38,730 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
-2017-11-14 14:49:38,766 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:49:38,791 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
-2017-11-14 14:49:38,791 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:49:38,821 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
-2017-11-14 14:49:38,821 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:49:38,841 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
-2017-11-14 14:49:41,643 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
-2017-11-14 14:49:41,653 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
-2017-11-14 14:49:41,653 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
-2017-11-14 14:49:41,653 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
-2017-11-14 14:49:41,653 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
-2017-11-14 14:49:42,004 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
-2017-11-14 14:49:42,074 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
-2017-11-14 14:50:14,207 INFO   [run] PROGRAM STARTED 
-2017-11-14 14:50:14,498 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
-2017-11-14 14:50:14,508 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
-2017-11-14 14:50:14,508 INFO   [Environment] HHH000206: hibernate.properties not found 
-2017-11-14 14:50:14,508 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
-2017-11-14 14:50:14,527 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
-2017-11-14 14:50:14,538 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:50:14,558 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
-2017-11-14 14:50:14,588 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:50:14,620 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
-2017-11-14 14:50:14,623 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:50:14,638 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
-2017-11-14 14:50:14,648 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:50:14,658 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
-2017-11-14 14:50:19,111 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
-2017-11-14 14:50:19,111 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
-2017-11-14 14:50:19,111 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
-2017-11-14 14:50:19,111 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
-2017-11-14 14:50:19,121 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
-2017-11-14 14:50:19,411 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
-2017-11-14 14:50:19,471 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
-2017-11-14 14:50:59,466 INFO   [run] PROGRAM STARTED 
-2017-11-14 14:50:59,746 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
-2017-11-14 14:50:59,756 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
-2017-11-14 14:50:59,756 INFO   [Environment] HHH000206: hibernate.properties not found 
-2017-11-14 14:50:59,756 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
-2017-11-14 14:50:59,766 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
-2017-11-14 14:50:59,786 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:50:59,806 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
-2017-11-14 14:50:59,836 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:50:59,866 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
-2017-11-14 14:50:59,866 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:50:59,897 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
-2017-11-14 14:50:59,900 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:50:59,916 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
-2017-11-14 14:51:03,269 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
-2017-11-14 14:51:03,279 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
-2017-11-14 14:51:03,279 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
-2017-11-14 14:51:03,279 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
-2017-11-14 14:51:03,279 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
-2017-11-14 14:51:03,572 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
-2017-11-14 14:51:03,619 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
-2017-11-14 14:51:55,779 INFO   [run] PROGRAM STARTED 
-2017-11-14 14:51:56,059 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
-2017-11-14 14:51:56,070 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
-2017-11-14 14:51:56,072 INFO   [Environment] HHH000206: hibernate.properties not found 
-2017-11-14 14:51:56,073 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
-2017-11-14 14:51:56,079 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
-2017-11-14 14:51:56,099 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:51:56,119 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
-2017-11-14 14:51:56,149 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:51:56,176 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
-2017-11-14 14:51:56,179 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:51:56,199 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
-2017-11-14 14:51:56,199 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 14:51:56,219 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
-2017-11-14 14:52:00,903 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
-2017-11-14 14:52:00,913 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
-2017-11-14 14:52:00,913 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
-2017-11-14 14:52:00,913 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
-2017-11-14 14:52:00,913 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
-2017-11-14 14:52:01,203 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
-2017-11-14 14:52:01,263 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
-2017-11-14 15:01:19,091 INFO   [run] PROGRAM STARTED 
-2017-11-14 15:01:19,371 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
-2017-11-14 15:01:19,371 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
-2017-11-14 15:01:19,381 INFO   [Environment] HHH000206: hibernate.properties not found 
-2017-11-14 15:01:19,381 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
-2017-11-14 15:01:19,391 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
-2017-11-14 15:01:19,411 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 15:01:19,421 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
-2017-11-14 15:01:19,461 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 15:01:19,481 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
-2017-11-14 15:01:19,491 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 15:01:19,511 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
-2017-11-14 15:01:19,521 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
-2017-11-14 15:01:19,531 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 08:27:01,178 INFO   [run] PROGRAM STARTED 
+2017-11-15 08:27:01,508 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 08:27:01,518 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 08:27:01,518 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 08:27:01,518 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 08:27:01,538 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 08:27:01,548 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:27:01,568 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 08:27:01,608 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:27:01,638 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 08:27:01,648 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:27:01,668 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 08:27:01,668 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:27:01,761 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 08:27:18,086 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
+2017-11-15 08:27:18,096 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
+2017-11-15 08:27:18,096 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
+2017-11-15 08:27:18,096 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
+2017-11-15 08:27:18,096 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
+2017-11-15 08:27:18,547 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2017-11-15 08:27:18,607 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2017-11-15 08:27:33,460 INFO   [Login] anhth has logged in. 
+2017-11-15 08:27:33,480 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 08:27:33,480 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:27:33,480 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 08:27:33,490 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:27:33,500 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 08:27:33,500 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:27:33,510 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 08:27:33,510 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:27:33,520 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 08:27:40,206 INFO   [Login] anhth has logged in. 
+2017-11-15 08:27:40,226 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 08:27:40,226 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:27:40,226 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 08:27:40,236 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:27:40,236 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 08:27:40,246 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:27:40,246 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 08:27:40,259 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:27:40,267 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 08:30:39,359 INFO   [run] PROGRAM STARTED 
+2017-11-15 08:30:39,767 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 08:30:39,776 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 08:30:39,778 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 08:30:39,779 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 08:30:39,793 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 08:30:39,803 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:30:39,823 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 08:30:39,863 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:30:39,893 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 08:30:39,893 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:30:39,913 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 08:30:39,923 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:30:39,933 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 08:52:30,927 INFO   [run] PROGRAM STARTED 
+2017-11-15 08:52:31,217 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 08:52:31,217 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 08:52:31,227 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 08:52:31,227 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 08:52:31,237 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 08:52:31,257 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:52:31,277 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 08:52:31,307 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:52:31,337 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 08:52:31,337 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:52:31,357 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 08:52:31,377 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 08:52:31,387 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 08:52:36,160 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
+2017-11-15 08:52:36,166 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
+2017-11-15 08:52:36,166 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
+2017-11-15 08:52:36,166 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
+2017-11-15 08:52:36,168 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
+2017-11-15 08:52:36,511 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2017-11-15 08:52:36,571 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2017-11-15 09:01:47,045 INFO   [run] PROGRAM STARTED 
+2017-11-15 09:01:47,335 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 09:01:47,345 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 09:01:47,345 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 09:01:47,345 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 09:01:47,365 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 09:01:47,375 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:01:47,395 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 09:01:47,425 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:01:47,465 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 09:01:47,465 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:01:47,485 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 09:01:47,485 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:01:47,515 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 09:02:46,895 INFO   [run] PROGRAM STARTED 
+2017-11-15 09:02:47,182 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 09:02:47,192 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 09:02:47,192 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 09:02:47,192 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 09:02:47,202 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 09:02:47,225 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:02:47,235 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 09:02:47,275 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:02:47,305 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 09:02:47,315 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:02:47,325 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 09:02:47,335 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:02:47,345 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 09:02:51,879 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
+2017-11-15 09:02:51,879 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
+2017-11-15 09:02:51,879 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
+2017-11-15 09:02:51,879 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
+2017-11-15 09:02:51,879 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
+2017-11-15 09:02:52,226 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2017-11-15 09:02:52,289 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2017-11-15 09:02:52,789 INFO   [Login] anhth has logged in. 
+2017-11-15 09:03:35,628 INFO   [run] PROGRAM STARTED 
+2017-11-15 09:03:35,938 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 09:03:35,948 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 09:03:35,948 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 09:03:35,948 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 09:03:35,968 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 09:03:35,978 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:03:36,002 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 09:03:36,028 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:03:36,058 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 09:03:36,058 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:03:36,078 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 09:03:36,088 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:03:36,107 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 09:03:40,382 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
+2017-11-15 09:03:40,392 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
+2017-11-15 09:03:40,392 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
+2017-11-15 09:03:40,392 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
+2017-11-15 09:03:40,392 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
+2017-11-15 09:03:40,692 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2017-11-15 09:03:40,753 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2017-11-15 09:03:41,212 INFO   [Login] anhth has logged in. 
+2017-11-15 09:05:41,048 INFO   [run] PROGRAM STARTED 
+2017-11-15 09:05:41,507 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 09:05:41,507 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 09:05:41,507 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 09:05:41,517 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 09:05:41,527 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 09:05:41,547 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:05:41,567 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 09:05:41,617 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:05:41,637 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 09:05:41,647 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:05:41,667 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 09:05:41,667 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:05:41,697 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 09:05:44,823 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
+2017-11-15 09:05:44,833 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
+2017-11-15 09:05:44,833 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
+2017-11-15 09:05:44,833 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
+2017-11-15 09:05:44,833 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
+2017-11-15 09:05:45,123 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2017-11-15 09:05:45,182 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2017-11-15 09:06:09,818 INFO   [run] PROGRAM STARTED 
+2017-11-15 09:06:10,098 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 09:06:10,098 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 09:06:10,098 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 09:06:10,108 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 09:06:10,118 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 09:06:10,141 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:06:10,154 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 09:06:10,184 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:06:10,204 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 09:06:10,214 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:06:10,234 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 09:06:10,234 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:06:10,254 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 09:06:12,132 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
+2017-11-15 09:06:12,132 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
+2017-11-15 09:06:12,132 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
+2017-11-15 09:06:12,132 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
+2017-11-15 09:06:12,142 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
+2017-11-15 09:06:12,433 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2017-11-15 09:06:12,493 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2017-11-15 09:06:32,632 INFO   [run] PROGRAM STARTED 
+2017-11-15 09:06:32,912 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 09:06:32,922 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 09:06:32,922 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 09:06:32,922 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 09:06:32,932 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 09:06:32,952 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:06:32,972 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 09:06:33,002 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:06:33,032 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 09:06:33,032 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:06:33,062 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 09:06:33,062 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:06:33,072 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 09:06:34,648 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
+2017-11-15 09:06:34,658 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
+2017-11-15 09:06:34,658 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
+2017-11-15 09:06:34,658 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
+2017-11-15 09:06:34,658 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
+2017-11-15 09:06:34,938 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2017-11-15 09:06:34,998 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2017-11-15 09:06:54,366 INFO   [Login] anhth has logged in. 
+2017-11-15 09:08:47,463 INFO   [run] PROGRAM STARTED 
+2017-11-15 09:08:47,743 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 09:08:47,753 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 09:08:47,753 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 09:08:47,753 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 09:08:47,763 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 09:08:47,783 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:08:47,803 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 09:08:47,833 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:08:47,863 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 09:08:47,863 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:08:47,883 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 09:08:47,893 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:08:47,903 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 09:10:08,315 INFO   [run] PROGRAM STARTED 
+2017-11-15 09:10:08,595 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 09:10:08,605 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 09:10:08,605 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 09:10:08,605 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 09:10:08,625 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 09:10:08,635 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:10:08,655 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 09:10:08,685 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:10:08,705 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 09:10:08,715 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:10:08,735 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 09:10:08,735 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 09:10:08,755 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 09:10:14,838 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
+2017-11-15 09:10:14,838 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
+2017-11-15 09:10:14,838 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
+2017-11-15 09:10:14,838 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
+2017-11-15 09:10:14,848 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
+2017-11-15 09:10:15,148 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2017-11-15 09:10:15,208 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2017-11-15 09:10:31,054 INFO   [Login] anhth has logged in. 
+2017-11-15 10:26:07,189 INFO   [run] PROGRAM STARTED 
+2017-11-15 10:26:07,502 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 10:26:07,507 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 10:26:07,509 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 10:26:07,510 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 10:26:07,525 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 10:26:07,542 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:26:07,557 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 10:26:07,617 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:26:07,652 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 10:26:07,655 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:26:07,679 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 10:26:07,684 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:26:07,703 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 10:26:26,425 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
+2017-11-15 10:26:26,470 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
+2017-11-15 10:26:26,470 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
+2017-11-15 10:26:26,470 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
+2017-11-15 10:26:26,472 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
+2017-11-15 10:26:26,760 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2017-11-15 10:26:26,839 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2017-11-15 10:28:12,050 INFO   [run] PROGRAM STARTED 
+2017-11-15 10:28:12,352 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 10:28:12,358 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 10:28:12,360 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 10:28:12,362 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 10:28:12,377 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 10:28:12,399 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:28:12,414 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 10:28:12,458 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:28:12,486 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 10:28:12,490 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:28:12,512 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 10:28:12,517 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:28:12,569 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 10:29:53,525 INFO   [run] PROGRAM STARTED 
+2017-11-15 10:29:53,818 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 10:29:53,825 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 10:29:53,827 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 10:29:53,829 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 10:29:53,846 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 10:29:53,866 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:29:53,881 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 10:29:53,915 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:29:53,943 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 10:29:53,947 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:29:53,971 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 10:29:53,975 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:29:53,994 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 10:34:49,557 INFO   [run] PROGRAM STARTED 
+2017-11-15 10:34:49,858 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 10:34:49,865 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 10:34:49,866 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 10:34:49,868 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 10:34:49,882 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 10:34:49,900 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:34:49,914 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 10:34:49,950 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:34:49,976 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 10:34:49,980 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:34:50,002 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 10:34:50,006 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:34:50,032 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 10:34:53,686 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
+2017-11-15 10:34:53,691 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
+2017-11-15 10:34:53,691 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
+2017-11-15 10:34:53,691 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
+2017-11-15 10:34:53,692 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
+2017-11-15 10:34:54,015 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2017-11-15 10:34:54,087 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2017-11-15 10:35:40,561 INFO   [run] PROGRAM STARTED 
+2017-11-15 10:35:40,857 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 10:35:40,864 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 10:35:40,866 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 10:35:40,868 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 10:35:40,882 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 10:35:40,901 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:35:40,917 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 10:35:40,952 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:35:40,979 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 10:35:40,984 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:35:41,004 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 10:35:41,009 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:35:41,026 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 10:37:08,657 INFO   [run] PROGRAM STARTED 
+2017-11-15 10:37:08,965 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 10:37:08,970 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 10:37:08,972 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 10:37:08,973 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 10:37:08,987 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 10:37:09,004 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:37:09,021 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 10:37:09,070 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:37:09,122 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 10:37:09,144 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:37:09,174 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 10:37:09,179 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:37:09,204 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 10:38:20,905 INFO   [run] PROGRAM STARTED 
+2017-11-15 10:38:21,229 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 10:38:21,234 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 10:38:21,236 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 10:38:21,237 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 10:38:21,251 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 10:38:21,270 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:38:21,284 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 10:38:21,322 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:38:21,350 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 10:38:21,353 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:38:21,387 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 10:38:21,390 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 10:38:21,407 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 13:31:37,215 INFO   [run] PROGRAM STARTED 
+2017-11-15 13:31:37,485 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 13:31:37,495 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 13:31:37,495 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 13:31:37,495 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 13:31:37,515 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 13:31:37,535 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:31:37,545 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 13:31:37,575 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:31:37,605 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 13:31:37,605 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:31:37,625 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 13:31:37,635 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:31:37,645 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 13:32:38,866 INFO   [run] PROGRAM STARTED 
+2017-11-15 13:32:39,156 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 13:32:39,156 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 13:32:39,166 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 13:32:39,166 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 13:32:39,176 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 13:32:39,196 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:32:39,206 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 13:32:39,246 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:32:39,266 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 13:32:39,276 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:32:39,306 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 13:32:39,306 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:32:39,316 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 13:35:25,769 INFO   [run] PROGRAM STARTED 
+2017-11-15 13:35:26,059 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 13:35:26,059 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 13:35:26,069 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 13:35:26,069 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 13:35:26,079 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 13:35:26,099 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:35:26,119 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 13:35:26,149 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:35:26,179 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 13:35:26,179 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:35:26,199 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 13:35:26,209 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:35:26,219 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 13:35:31,420 INFO   [run] PROGRAM STARTED 
+2017-11-15 13:35:31,702 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 13:35:31,708 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 13:35:31,710 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 13:35:31,711 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 13:35:31,722 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 13:35:31,744 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:35:31,749 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 13:35:31,789 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:35:31,809 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 13:35:31,809 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:35:31,829 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 13:35:31,839 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:35:31,849 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 13:39:57,290 INFO   [run] PROGRAM STARTED 
+2017-11-15 13:39:57,580 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 13:39:57,590 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 13:39:57,590 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 13:39:57,590 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 13:39:57,610 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 13:39:57,630 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:39:57,640 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 13:39:57,670 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:39:57,700 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 13:39:57,700 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:39:57,720 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 13:39:57,720 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:39:57,740 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 13:40:12,941 INFO   [run] PROGRAM STARTED 
+2017-11-15 13:40:13,221 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 13:40:13,231 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 13:40:13,231 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 13:40:13,231 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 13:40:13,241 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 13:40:13,261 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:40:13,281 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 13:40:13,311 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:40:13,331 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 13:40:13,341 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:40:13,361 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 13:40:13,361 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:40:13,381 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 13:40:36,534 INFO   [run] PROGRAM STARTED 
+2017-11-15 13:40:36,814 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 13:40:36,814 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 13:40:36,814 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 13:40:36,824 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 13:40:36,834 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 13:40:36,854 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:40:36,864 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 13:40:36,894 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:40:36,924 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 13:40:36,924 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:40:36,944 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 13:40:36,954 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:40:36,964 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 13:41:23,790 INFO   [run] PROGRAM STARTED 
+2017-11-15 13:41:24,090 INFO   [Version] HCANN000001: Hibernate Commons Annotations {4.0.4.Final} 
+2017-11-15 13:41:24,090 INFO   [Version] HHH000412: Hibernate Core {4.3.1.Final} 
+2017-11-15 13:41:24,100 INFO   [Environment] HHH000206: hibernate.properties not found 
+2017-11-15 13:41:24,100 INFO   [Environment] HHH000021: Bytecode provider name : javassist 
+2017-11-15 13:41:24,110 INFO   [Configuration] HHH000042: Configuring from file: database.xml 
+2017-11-15 13:41:24,130 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:41:24,150 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/UserGroups.xml 
+2017-11-15 13:41:24,190 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:41:24,220 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Aircrafts.xml 
+2017-11-15 13:41:24,230 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:41:24,260 INFO   [Configuration] HHH000221: Reading mappings from resource: com/attech/sms/database/entities/Users.xml 
+2017-11-15 13:41:24,260 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2017-11-15 13:41:24,280 INFO   [Configuration] HHH000041: Configured SessionFactory: null 
+2017-11-15 13:41:27,753 WARN   [DriverManagerConnectionProviderImpl] HHH000402: Using Hibernate built-in connection pool (not for production use!) 
+2017-11-15 13:41:27,763 INFO   [DriverManagerConnectionProviderImpl] HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.22.173:3306/sms?useUnicode=yes&characterEncoding=UTF-8] 
+2017-11-15 13:41:27,763 INFO   [DriverManagerConnectionProviderImpl] HHH000046: Connection properties: {user=root, password=****} 
+2017-11-15 13:41:27,763 INFO   [DriverManagerConnectionProviderImpl] HHH000006: Autocommit mode: false 
+2017-11-15 13:41:27,763 INFO   [DriverManagerConnectionProviderImpl] HHH000115: Hibernate connection pool size: 20 (min=1) 
+2017-11-15 13:41:28,153 INFO   [Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2017-11-15 13:41:28,213 INFO   [TransactionFactoryInitiator] HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2017-11-15 13:41:28,653 INFO   [Login] Tăng Hải Anh has logged in.  

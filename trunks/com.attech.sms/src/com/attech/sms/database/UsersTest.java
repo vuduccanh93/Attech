@@ -38,13 +38,13 @@ public class UsersTest {
     
     private static void SelectUser(String s1, String s2){
         UsersDao dao = new UsersDao();
-        List<Users> list = dao.getUsers(s1, s2);
+        //List<Users> list = dao.getUsers(s1, s2);
         //List<Users> list = dao.getAllUser();
-        if (list !=null && list.size() > 0)
-            for (Users user: list)
-                System.out.println(user.toString());
-        else
-            System.out.println("No data!");
+        //if (list !=null && list.size() > 0)
+        //    for (Users user: list)
+        //        System.out.println(user.toString());
+        //else
+        //    System.out.println("No data!");
     }
     
     

@@ -10,9 +10,6 @@ import org.apache.log4j.xml.DOMConfigurator;
 import com.attech.sms.common.AppContext;
 import com.attech.sms.common.ExceptionHandler;
 import com.attech.sms.gui.*;
-import java.io.File;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
 
 /**
  *
@@ -21,7 +18,6 @@ import org.hibernate.cfg.Configuration;
 public class run {
 
     private final static String CONFIGURATION = "config.xml";
-    private final static String DATABASE_MAPPING = "database.xml";
     private static final String CONFIG_LOG = "log.xml";
     private static final Logger logger = Logger.getLogger(run.class);
     /**

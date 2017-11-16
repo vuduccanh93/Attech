@@ -60,6 +60,14 @@ public class UsersDao extends Base{
         return list;
     }
     
+    public Users selectUsers(String sUsername, String sPassword) {
+        String query = String.format("FROM Users WHERE Username = :name AND Password = :pass");
+        Parameter[] parameters = new Parameter[]{new Parameter("name", sUsername), new Parameter("pass", digest(sPassword))};
+        List<Users> list = (List<Users>) this.find(query, parameters);
+        if (list == null || list.isEmpty() ) return null;
+        return list.get(0);
+    }
+    
     public List<Users> getAllUser() {
         Session session = getSessionFactory().openSession();
 
