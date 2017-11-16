@@ -22,6 +22,19 @@ public class Sensors implements Serializable {
     private Byte Status;
     private String Description;
     
+    private String ReceivingMode;
+    private String ReceivingMulticastAddress;
+    private Integer ReceivingPort;
+    private String ReceivingBindIp;
+    
+    private String ForwardMode;
+    private String ForwardAddress;
+    private Integer ForwardPort;
+    private Byte EnableForwarding;
+    private String ForwardBindIp;
+    private Integer ForwardingMultiCastTTL;
+    private Integer BufferSize;
+    
     public Sensors(){
     
     }
@@ -136,6 +149,160 @@ public class Sensors implements Serializable {
      */
     public void setDescription(String Description) {
         this.Description = Description;
+    }
+
+    /**
+     * @return the ReceivingMode
+     */
+    public String getReceivingMode() {
+        return ReceivingMode;
+    }
+
+    /**
+     * @param ReceivingMode the ReceivingMode to set
+     */
+    public void setReceivingMode(String ReceivingMode) {
+        this.ReceivingMode = ReceivingMode;
+    }
+
+    /**
+     * @return the ReceivingMulticastAddress
+     */
+    public String getReceivingMulticastAddress() {
+        return ReceivingMulticastAddress;
+    }
+
+    /**
+     * @param ReceivingMulticastAddress the ReceivingMulticastAddress to set
+     */
+    public void setReceivingMulticastAddress(String ReceivingMulticastAddress) {
+        this.ReceivingMulticastAddress = ReceivingMulticastAddress;
+    }
+
+    /**
+     * @return the ReceivingPort
+     */
+    public Integer getReceivingPort() {
+        return ReceivingPort;
+    }
+
+    /**
+     * @param ReceivingPort the ReceivingPort to set
+     */
+    public void setReceivingPort(Integer ReceivingPort) {
+        this.ReceivingPort = ReceivingPort;
+    }
+
+    /**
+     * @return the ReceivingBindIp
+     */
+    public String getReceivingBindIp() {
+        return ReceivingBindIp;
+    }
+
+    /**
+     * @param ReceivingBindIp the ReceivingBindIp to set
+     */
+    public void setReceivingBindIp(String ReceivingBindIp) {
+        this.ReceivingBindIp = ReceivingBindIp;
+    }
+
+    /**
+     * @return the ForwardMode
+     */
+    public String getForwardMode() {
+        return ForwardMode;
+    }
+
+    /**
+     * @param ForwardMode the ForwardMode to set
+     */
+    public void setForwardMode(String ForwardMode) {
+        this.ForwardMode = ForwardMode;
+    }
+
+    /**
+     * @return the ForwardAddress
+     */
+    public String getForwardAddress() {
+        return ForwardAddress;
+    }
+
+    /**
+     * @param ForwardAddress the ForwardAddress to set
+     */
+    public void setForwardAddress(String ForwardAddress) {
+        this.ForwardAddress = ForwardAddress;
+    }
+
+    /**
+     * @return the ForwardPort
+     */
+    public Integer getForwardPort() {
+        return ForwardPort;
+    }
+
+    /**
+     * @param ForwardPort the ForwardPort to set
+     */
+    public void setForwardPort(Integer ForwardPort) {
+        this.ForwardPort = ForwardPort;
+    }
+
+    /**
+     * @return the EnableForwarding
+     */
+    public Byte getEnableForwarding() {
+        return EnableForwarding;
+    }
+
+    /**
+     * @param EnableForwarding the EnableForwarding to set
+     */
+    public void setEnableForwarding(Byte EnableForwarding) {
+        this.EnableForwarding = EnableForwarding;
+    }
+
+    /**
+     * @return the ForwardBindIp
+     */
+    public String getForwardBindIp() {
+        return ForwardBindIp;
+    }
+
+    /**
+     * @param ForwardBindIp the ForwardBindIp to set
+     */
+    public void setForwardBindIp(String ForwardBindIp) {
+        this.ForwardBindIp = ForwardBindIp;
+    }
+
+    /**
+     * @return the ForwardingMultiCastTTL
+     */
+    public Integer getForwardingMultiCastTTL() {
+        return ForwardingMultiCastTTL;
+    }
+
+    /**
+     * @param ForwardingMultiCastTTL the ForwardingMultiCastTTL to set
+     */
+    public void setForwardingMultiCastTTL(Integer ForwardingMultiCastTTL) {
+        this.ForwardingMultiCastTTL = ForwardingMultiCastTTL;
+    }
+
+    /**
+     * @return the BufferSize
+     */
+    public Integer getBufferSize() {
+        return BufferSize;
+    }
+
+    /**
+     * @param BufferSize the BufferSize to set
+     */
+    public void setBufferSize(Integer BufferSize) {
+        this.BufferSize = BufferSize;
     }
     
 }
