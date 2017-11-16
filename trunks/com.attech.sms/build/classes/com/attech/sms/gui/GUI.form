@@ -30,6 +30,18 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Configuration"/>
           </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuUserManager">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Users manager"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnuSensorManager">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Stations/Sensors manager"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
         </Menu>
         <Menu class="javax.swing.JMenu" name="jMenu5">
           <Properties>
@@ -76,20 +88,13 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Component id="pnMain" pref="840" max="32767" attributes="0"/>
-          <Group type="102" alignment="0" attributes="0">
-              <Component id="jToolBar1" min="-2" pref="680" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jPanel1" max="32767" attributes="0"/>
-          </Group>
+          <Component id="jToolBar1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jToolBar1" pref="50" max="32767" attributes="0"/>
-                  <Component id="jPanel1" max="32767" attributes="0"/>
-              </Group>
+              <Component id="jToolBar1" min="-2" pref="50" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="pnMain" min="-2" pref="527" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -127,17 +132,17 @@
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
       <SubComponents>
-        <Component class="javax.swing.JButton" name="btnAdd">
+        <Component class="javax.swing.JButton" name="btnDashboard">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/attech/sms/img/add.png"/>
+              <Image iconType="3" name="/com/attech/sms/img/home_page.png"/>
             </Property>
             <Property name="focusable" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAddActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDashboardActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnConfig">
@@ -153,6 +158,19 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnConfigActionPerformed"/>
           </Events>
         </Component>
+        <Component class="javax.swing.JButton" name="btnLiveMonitor">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/com/attech/sms/img/radiolocator.png"/>
+            </Property>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="verticalTextPosition" type="int" value="3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLiveMonitorActionPerformed"/>
+          </Events>
+        </Component>
         <Component class="javax.swing.JButton" name="btnHelp">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
@@ -165,36 +183,6 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHelpActionPerformed"/>
           </Events>
-        </Component>
-      </SubComponents>
-    </Container>
-    <Container class="javax.swing.JPanel" name="jPanel1">
-
-      <Layout>
-        <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="txtWelcome" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
-        <DimensionLayout dim="1">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="txtWelcome" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
-      </Layout>
-      <SubComponents>
-        <Component class="javax.swing.JLabel" name="txtWelcome">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Welcome: "/>
-          </Properties>
         </Component>
       </SubComponents>
     </Container>

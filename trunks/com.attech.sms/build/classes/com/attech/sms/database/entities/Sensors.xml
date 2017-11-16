@@ -10,5 +10,16 @@
         <property column="StationId" name="StationId" not-null="true" type="java.lang.Integer"/>
         <property column="Status" name="Status" not-null="true" type="java.lang.Byte"/>
         <property column="Description" name="Description" length="500" not-null="false" type="java.lang.String"/>
+        <property column="ReceivingMode" name="ReceivingMode" length="15" not-null="false" type="java.lang.String"/>
+        <property column="ReceivingMulticastAddress" name="ReceivingMulticastAddress" length="15" not-null="false" type="java.lang.String"/>
+        <property column="ReceivingPort" name="ReceivingPort" not-null="false" type="java.lang.Integer"/>
+        <property column="ReceivingBindIp" name="ReceivingBindIp" length="15" not-null="false" type="java.lang.String"/>
+        <property column="ForwardMode" name="ForwardMode" length="15" not-null="false" type="java.lang.String"/>
+        <property column="ForwardAddress" name="ForwardAddress" length="15" not-null="false" type="java.lang.String"/>
+        <property column="ForwardPort" name="ForwardPort" not-null="false" type="java.lang.Integer"/>
+        <property column="EnableForwarding" name="EnableForwarding" not-null="true" type="java.lang.Byte"/>
+        <property column="ForwardBindIp" name="ForwardBindIp" length="15" not-null="false" type="java.lang.String"/>
+        <property column="ForwardingMultiCastTTL" name="ForwardingMultiCastTTL" not-null="false" type="java.lang.Integer"/>
+        <property column="BufferSize" name="BufferSize" not-null="false" type="java.lang.Integer"/>
     </class>
 </hibernate-mapping>
