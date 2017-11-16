@@ -41,7 +41,6 @@ public class GUI extends javax.swing.JFrame implements Runnable {
     public GUI(Users user) {
         this();
         this.user = user;
-        txtWelcome.setText(String.format("Welcome: %s", user.getFullname()));
     }
 
     /**
@@ -53,17 +52,18 @@ public class GUI extends javax.swing.JFrame implements Runnable {
 
         pnMain = new javax.swing.JPanel(new WrapLayout(FlowLayout.LEFT));
         jToolBar1 = new javax.swing.JToolBar();
-        btnAdd = new javax.swing.JButton();
+        btnDashboard = new javax.swing.JButton();
         btnConfig = new javax.swing.JButton();
+        btnLiveMonitor = new javax.swing.JButton();
         btnHelp = new javax.swing.JButton();
-        jPanel1 = new javax.swing.JPanel();
-        txtWelcome = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenu3 = new javax.swing.JMenu();
         jMenu4 = new javax.swing.JMenu();
+        mnuUserManager = new javax.swing.JMenuItem();
+        mnuSensorManager = new javax.swing.JMenuItem();
         jMenu5 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenuItem2 = new javax.swing.JMenuItem();
@@ -79,16 +79,16 @@ public class GUI extends javax.swing.JFrame implements Runnable {
         jToolBar1.setFloatable(false);
         jToolBar1.setRollover(true);
 
-        btnAdd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/attech/sms/img/add.png"))); // NOI18N
-        btnAdd.setFocusable(false);
-        btnAdd.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnAdd.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        btnAdd.addActionListener(new java.awt.event.ActionListener() {
+        btnDashboard.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/attech/sms/img/home_page.png"))); // NOI18N
+        btnDashboard.setFocusable(false);
+        btnDashboard.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnDashboard.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnDashboard.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAddActionPerformed(evt);
+                btnDashboardActionPerformed(evt);
             }
         });
-        jToolBar1.add(btnAdd);
+        jToolBar1.add(btnDashboard);
 
         btnConfig.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/attech/sms/img/configuration.png"))); // NOI18N
         btnConfig.setFocusable(false);
@@ -101,6 +101,17 @@ public class GUI extends javax.swing.JFrame implements Runnable {
         });
         jToolBar1.add(btnConfig);
 
+        btnLiveMonitor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/attech/sms/img/radiolocator.png"))); // NOI18N
+        btnLiveMonitor.setFocusable(false);
+        btnLiveMonitor.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnLiveMonitor.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnLiveMonitor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLiveMonitorActionPerformed(evt);
+            }
+        });
+        jToolBar1.add(btnLiveMonitor);
+
         btnHelp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/attech/sms/img/help.png"))); // NOI18N
         btnHelp.setFocusable(false);
         btnHelp.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -111,25 +122,6 @@ public class GUI extends javax.swing.JFrame implements Runnable {
             }
         });
         jToolBar1.add(btnHelp);
-
-        txtWelcome.setText("Welcome: ");
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(txtWelcome)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(txtWelcome)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
 
         jMenu1.setText("File");
 
@@ -145,6 +137,13 @@ public class GUI extends javax.swing.JFrame implements Runnable {
         jMenuBar1.add(jMenu3);
 
         jMenu4.setText("Configuration");
+
+        mnuUserManager.setText("Users manager");
+        jMenu4.add(mnuUserManager);
+
+        mnuSensorManager.setText("Stations/Sensors manager");
+        jMenu4.add(mnuSensorManager);
+
         jMenuBar1.add(jMenu4);
 
         jMenu5.setText("Help");
@@ -164,17 +163,12 @@ public class GUI extends javax.swing.JFrame implements Runnable {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(pnMain, javax.swing.GroupLayout.DEFAULT_SIZE, 840, Short.MAX_VALUE)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jToolBar1, javax.swing.GroupLayout.PREFERRED_SIZE, 680, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addComponent(jToolBar1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jToolBar1, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jToolBar1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(pnMain, javax.swing.GroupLayout.PREFERRED_SIZE, 527, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
@@ -183,9 +177,9 @@ public class GUI extends javax.swing.JFrame implements Runnable {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
+    private void btnDashboardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDashboardActionPerformed
         
-    }//GEN-LAST:event_btnAddActionPerformed
+    }//GEN-LAST:event_btnDashboardActionPerformed
 
     private void btnConfigActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConfigActionPerformed
         // TODO add your handling code here:
@@ -198,10 +192,15 @@ public class GUI extends javax.swing.JFrame implements Runnable {
         help.setVisible(true);
     }//GEN-LAST:event_btnHelpActionPerformed
 
+    private void btnLiveMonitorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLiveMonitorActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnLiveMonitorActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnAdd;
     private javax.swing.JButton btnConfig;
+    private javax.swing.JButton btnDashboard;
     private javax.swing.JButton btnHelp;
+    private javax.swing.JButton btnLiveMonitor;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
@@ -211,10 +210,10 @@ public class GUI extends javax.swing.JFrame implements Runnable {
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JToolBar jToolBar1;
+    private javax.swing.JMenuItem mnuSensorManager;
+    private javax.swing.JMenuItem mnuUserManager;
     private javax.swing.JPanel pnMain;
-    private javax.swing.JLabel txtWelcome;
     // End of variables declaration//GEN-END:variables
 
     @Override
